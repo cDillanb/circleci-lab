@@ -2,4 +2,6 @@ function getGreeting(name){
     return "Hi " + name;
 }
 
-module.exports = getGreeting;
+const multiply = (num1, num2) => num1 * num2
+
+module.exports = { getGreeting, multiply };
